@@ -1,0 +1,38 @@
+@color-background: #3498db;
+
+@smartphone:~"only screen and (max-width: 420px)";
+
+body{
+  font-size: 1.6em;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  max-width: 1280px;
+  margin: auto;
+  background-color: @color-background;
+  padding: 30px;
+  border-radius: 7px; 
+  img{
+    width: 500px;
+    margin: auto;
+    
+    @media @smartphone{
+        display: none;
+    }
+  }
+  h1{
+    text-align: center;
+  }
+  .text{
+    text-align: justify;
+    @media @smartphone{
+    text-align: center;
+    }
+  }
+  .auteur{
+    text-align: right;
+    font-style: italic;
+  }
+}
