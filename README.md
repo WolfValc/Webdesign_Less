@@ -4,4 +4,4 @@
 
 ## Informations
  
-Exercice de mise en place et d'utilisation du CSS avec comme sujet la Licorne
+Exercice de mise en place et d'utilisation du CSS avec comme sujet la Licorne et a l'aide du preprocesseur less
